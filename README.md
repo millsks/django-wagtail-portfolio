@@ -10,7 +10,7 @@ bash Miniforge3-24.1.2-0-Linux-x86_64.sh -b -p miniforge/py310-24120
 
 ### Create the conda environment
 ``` bash
-mamba create -n django-wagtail-portfolio python=3.11 django=4.2 django-wagtail cruft
+mamba create -n django-wagtail-portfolio python=3.11 django=4.2 wagtail coderedcms cruft
 ```
 
 ## Clone the django-wagtail-portfolio repository
